@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/threatguard-docs/',
   title: 'ThreatGuard',
   description: 'ブランドなりすまし検知・削除申請プラットフォーム',
   lang: 'ja',
