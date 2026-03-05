@@ -82,12 +82,12 @@ KPIとビジュアルを中心にした、経営レベルの報告書です。
 レポートはブランドごとに生成できます。複数ブランドを管理している場合、特定ブランドに絞ったレポートを作成可能です。
 
 ::: info 技術詳細（CISO向け）
-- APIエンドポイント: `GET /api/reports/generate?type={regulatory|board|clo}&brandId={optional}`
-- マルチテナント対応: orgBrandIds() で組織内ブランドのみに制限
-- superadminは全組織のデータを横断してレポート生成可能
+- レポート種別: regulatory（行政機関）/ board（取締役会）/ clo（法務責任者）
+- マルチテナント対応: 組織内ブランドのみに制限
+- システム管理者は全組織のデータを横断してレポート生成可能
 - タイムラインは `firstSeen` の日付でグルーピング
 - CLOレポートは `riskScore >= 60` の脅威のみ抽出
-- グラフ描画: Recharts（BarChart, PieChart）
+- グラフ描画: 棒グラフ・円グラフによるビジュアル表示
 :::
 
 ## 次のステップ

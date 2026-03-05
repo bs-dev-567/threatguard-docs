@@ -16,7 +16,7 @@
 
 | 用語 | 説明 |
 |------|------|
-| **ドメイン** | Webサイトのアドレス。例: `coincheck.com` |
+| **ドメイン** | Webサイトのアドレス。例: `example-brand.com` |
 | **DNS（Domain Name System）** | ドメイン名をIPアドレスに変換するインターネットの仕組み。電話帳のようなもの |
 | **DNS解決（Resolve）** | ドメイン名からIPアドレスを取得すること。IPが返ってくる＝そのドメインにサーバーが存在する |
 | **TLD（Top Level Domain）** | ドメインの末尾部分。`.com` `.net` `.org` `.jp` など |
