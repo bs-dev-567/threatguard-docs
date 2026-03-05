@@ -35,6 +35,7 @@ export default defineConfig({
           { text: 'リスクスコアリング', link: '/features/risk-scoring' },
           { text: '削除申請フロー', link: '/features/takedown-request' },
           { text: 'ダッシュボード', link: '/features/dashboard' },
+          { text: 'レポート・エクスポート', link: '/features/reports' },
         ],
       },
       {
