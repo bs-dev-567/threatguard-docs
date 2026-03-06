@@ -14,6 +14,7 @@ export default defineConfig({
     nav: [
       { text: 'ガイド', link: '/getting-started/overview' },
       { text: '機能', link: '/features/domain-scan' },
+      { text: '料金プラン', link: '/pricing' },
       { text: 'ロードマップ', link: '/roadmap/current-mvp' },
       { text: 'セキュリティ', link: '/security/architecture' },
     ],
@@ -36,6 +37,12 @@ export default defineConfig({
           { text: '削除申請フロー', link: '/features/takedown-request' },
           { text: 'ダッシュボード', link: '/features/dashboard' },
           { text: 'レポート・エクスポート', link: '/features/reports' },
+        ],
+      },
+      {
+        text: '料金プラン',
+        items: [
+          { text: '料金プラン', link: '/pricing' },
         ],
       },
       {
