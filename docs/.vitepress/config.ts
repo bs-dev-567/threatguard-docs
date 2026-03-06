@@ -42,6 +42,7 @@ export default defineConfig({
       {
         text: '料金プラン',
         items: [
+          { text: 'プラン・機能一覧', link: '/plans' },
           { text: '料金プラン', link: '/pricing' },
         ],
       },
