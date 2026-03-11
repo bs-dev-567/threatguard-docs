@@ -62,6 +62,12 @@ export default defineConfig({
         ],
       },
       {
+        text: '法務',
+        items: [
+          { text: '利用規約', link: '/legal/terms' },
+        ],
+      },
+      {
         text: 'その他',
         items: [
           { text: 'よくある質問', link: '/faq' },
