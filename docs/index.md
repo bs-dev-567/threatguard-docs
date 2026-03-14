@@ -28,4 +28,7 @@ features:
   - icon: 📄
     title: レポート
     details: 行政機関・取締役会・CLO向けの3種類のレポートを自動生成。グラフ・証拠データ付きで、そのまま提出できる品質。PDF保存対応。
+  - icon: 🐦
+    title: SNS監視
+    details: TwitterでのフィッシングURL拡散を自動監視。ブランドに関連する不審なURL投稿を検出し、早期対応を支援。
 ---

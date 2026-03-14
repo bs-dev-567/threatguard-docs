@@ -25,9 +25,13 @@
 
 | 機能 | 説明 |
 |------|------|
-| **SNS監視** | X（Twitter）、Telegram、Discord上の偽公式アカウント検知 |
+| **SNS監視の拡張** | Twitter監視のPhase 2（偽アカウント検知）、Telegram・Discord への拡張 |
 | **偽エアドロップ・偽IDOサイト検知** | 暗号資産特有の詐欺パターンへの対応 |
 | **ウォレット接続フィッシング検知** | MetaMask等を模倣したサイトの特定 |
+
+::: tip 進捗
+Twitter フィッシングURL拡散監視（Phase 1）は提供開始済みです。[MVP機能一覧](/roadmap/current-mvp) をご覧ください。
+:::
 
 ## 中長期の計画
 

@@ -97,12 +97,16 @@ new_domain（新規検出）
     ↓ AI分析
 analyzing（分析中）
     ↓
-confirmed_threat（脅威確定）  or  false_positive（誤検知）
+confirmed_threat（脅威確認）  or  false_positive（誤検知）
     ↓
 takedown_sent（削除申請済み）
     ↓
 resolved（解決済み）
 ```
+
+::: info ステータス「脅威確認」
+`confirmed_threat` は、AI分析やページ調査によって脅威と判定されたドメインに付与されるステータスです。このステータスのドメインが削除申請の対象となります。
+:::
 
 ## 次のステップ
 
